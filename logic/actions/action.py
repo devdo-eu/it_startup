@@ -6,4 +6,4 @@ class Action:
         self.action_type = ActionType.NONE
 
     def do_action(self, gs: GameState):
-        pass
+        assert False
