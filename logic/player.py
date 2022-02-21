@@ -4,4 +4,6 @@ class Player:
         self.resources = 0
         self.hand = []
         self.table = []
-        self.project_points = []
+        self.project_points = 0
+        self.input = input
+        self.output = print
